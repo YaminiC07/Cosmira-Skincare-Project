@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby</title>
+    <style>
+
+        h1{
+            font-size: 40px;
+            text-align: center;
+            background:linear-gradient(to right,#6f2dbd,#b66dff);
+        }
+         .contain{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .product-card{
+    width:300px;
+    border:1px solid #eee;
+    border-radius:10px;
+    background:#fff;
+    transition:.3s;
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+}
+
+
+
+.product-card img{
+    width:100%;
+    height:220px;
+    object-fit:contain;
+    background:#fafafa;
+}
+
+.product-card h5{
+    font-size:28px;
+    margin:15px;
+    text-align: center;
+}
+
+
+
+.product-card{
+    width:300px;
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.15);
+    padding:15px;
+    transition:.3s;
+}
+
+
+
+
+
+.product-card img{
+    width:100%;
+    height:220px;
+    object-fit:contain;
+}
+
+.category{
+    color:#666;
+    font-size:14px;
+    margin-top:10px;
+}
+
+.product-card h3{
+    font-size:18px;
+    margin:8px 0;
+    color:#333;
+}
+
+.price{
+    margin:10px 0;
+}
+
+.new-price{
+    color:#000;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.old-price{
+    color:#888;
+    text-decoration:line-through;
+    margin-left:8px;
+}
+
+.discount{
+    color:green;
+    font-weight:bold;
+    margin-left:8px;
+}
+
+.rating{
+    display:inline-block;
+    background:#0a8f3d;
+    color:#fff;
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:14px;
+    margin:10px 0;
+}
+
+.rating span{
+    color:#fff;
+    margin-left:5px;
+}
+
+.buttons{
+    display:flex;
+    gap:10px;
+    margin-top:15px;
+}
+
+.buttons button{
+    flex:1;
+    padding:12px;
+    border:none;
+    border-radius:6px;
+    font-size:15px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.cart{
+    background:#ff9800;
+    color:#fff;
+}
+
+.cart:hover{
+    background:#f57c00;
+}
+
+.buy{
+    background:#28a745;
+    color:#fff;
+}
+
+.buy:hover{
+    background:#218838;
+}
+
+.sort{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    height: 50px;
+      align-items: center;
+            padding: 4px;
+            font-size: 22px;
+            font-weight: bold;
+    }
+
+    .cards{
+        
+        display: flex;
+        justify-content: space-evenly;
+        scroll-snap-type: x mandatory;
+    }
+
+
+    </style>
+</head>
+<body>
+    
+    <h1>Baby</h1>
+    <div class="contain">
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/64/92/d6/6492d62015cfac68058510dc512b6f85.jpg" alt="">
+        <h5>Baby Body Wash</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/1200x/eb/2f/cd/eb2fcd8262615adc7ed0a76760e6cbd1.jpg" alt="">
+        <h5>Baby Massage Oil</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/dc/3f/01/dc3f01391353e2e8b24f1c1d195759c1.jpg" alt="">
+        <h5>Baby Wipes</h5>    
+    </div>
+
+    
+   </div>
+<br>
+<br>
+
+   <div class="contain">
+    <div class="product-card">
+        <img src="https://i.pinimg.com/1200x/9e/0d/86/9e0d86ba095e92d5060c6c2671dccabc.jpg" alt="">
+        <h5>Baby Moisturizer</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/c3/84/df/c384df4456405e1e08ea412a266900ba.jpg" alt="">
+        <h5>Baby Rash Cream</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/vwebp/1200x/59/9c/ae/599caecace7825836634a83aea2dd247.webp" alt="">
+        <h5>Baby Powder</h5>    
+    </div>  
+   </div>
+
+    <h1>Baby Personal Care</h1>
+
+     <div class="contain">
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/cf/72/28/cf7228120636f946d4981bd2faab1c6a.jpg" alt="">
+        <h5>Baby Diaper</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/1200x/4a/df/e0/4adfe0f1ff156f131201f49fa3c5c79e.jpg" alt="">
+        <h5>Baby Soap</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/6e/d0/5d/6ed05debb0c13d8e365ecc64d8020a70.jpg" alt="">
+        <h5>Baby Lotion</h5>    
+    </div>
+
+    
+   </div>
+<br>
+<br>
+
+   <div class="contain">
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/17/bc/6a/17bc6a4f3b232256ae7bcffb8151802d.jpg" alt="">
+        <h5>Baby Hair Oil</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/66/54/fb/6654fbc620f7dafda948df3b798f093c.jpg" alt="">
+        <h5>Baby Shampoo</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/3d/28/f4/3d28f47f92cee04af96f649bb1beaa3f.jpg" alt="">
+        <h5>Baby Diaper Cream</h5>    
+    </div>  
+   </div>
+<br>
+<br><br>
+
+
+<div class="sort">
+    <div class="child">Sort</div>
+    <div class="child">Category</div>
+    <div class="child">Price</div>
+    <div class="child">Filters</div>
+</div>
+  <br>
+<br><br>
+<br>
+
+<div class="cards">
+    <div class="product-card">
+    <img src="https://i.pinimg.com/1200x/bd/17/9e/bd179e5702d63b30457f3cbac4cd8c68.jpg" alt="Beard Oil">
+
+    <div class="category">Johnson's Baby Lotion</div>
+
+    <h3>Keeps baby's skin soft and moisturized.</h3>
+
+    <div class="price">
+        <span class="new-price">₹245</span>
+        <span class="old-price">₹325</span>
+        <span class="discount">25% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.8 <span>(15.5k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/29/1c/94/291c949391ba2ae76a4eb40c56f0f9a7.jpg" alt="Beard Oil">
+
+    <div class="category">Johnson's Baby Shampoo</div>
+
+    <h3>Tear-free gentle hair cleanser</h3>
+
+    <div class="price">
+        <span class="new-price">₹215</span>
+        <span class="old-price">₹299</span>
+        <span class="discount">28% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.8 <span>(18.4k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/d4/21/71/d4217144a04d5c94908becaff7d0aa3b.jpg" alt="Beard Oil">
+
+    <div class="category">Johnson's Baby Soap</div>
+
+    <h3>Mild soap for delicate skin.</h3>
+
+    <div class="price">
+        <span class="new-price">₹95</span>
+        <span class="old-price">₹125</span>
+        <span class="discount">24% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.7 <span>(12.8k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/77/1b/3a/771b3a88601d2cf6de1386aab72dfd21.jpg" alt="Beard Oil">
+
+    <div class="category">Johnson's Baby Oil</div>
+
+    <h3>Nourishing massage oil.</h3>
+
+    <div class="price">
+        <span class="new-price">₹199</span>
+        <span class="old-price">₹275</span>
+        <span class="discount">28% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.8 <span>(21k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+</div>
+
+<br><br><br>
+
+<div class="cards">
+    <div class="product-card">
+    <img src="https://i.pinimg.com/736x/c5/96/4a/c5964a86359d301cf6ea42f1e2aa1815.jpg" alt="Beard Oil">
+
+    <div class="category">Johnson's Baby Powder</div>
+
+    <h3>Keeps skin fresh and dry.</h3>
+
+    <div class="price">
+        <span class="new-price">₹179</span>
+        <span class="old-price">₹249</span>
+        <span class="discount">28% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.7 <span>(17.5k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/eb/33/5d/eb335d89dd1a6201e601357d2e795ee0.jpg" alt="Beard Oil">
+
+    <div class="category">Himalaya Baby Lotion</div>
+
+    <h3>Gentle daily moisturizing lotion.</h3>
+
+    <div class="price">
+        <span class="new-price">₹239</span>
+        <span class="old-price">₹325</span>
+        <span class="discount">26% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.7 <span>(9.6k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/43/0c/d7/430cd74c7f1761c3a011a58e637078a1.jpg" alt="Beard Oil">
+
+    <div class="category">Himalaya Baby Shampoo</div>
+
+    <h3>Soft cleansing for baby's hair.</h3>
+
+    <div class="price">
+        <span class="new-price">₹229</span>
+        <span class="old-price">₹310</span>
+        <span class="discount">26% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.6 <span>(8.9k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/ba/6a/fd/ba6afd548a10358777c2440795647a60.jpg" alt="Beard Oil">
+
+    <div class="category">Ultra Gentle Cleanser</div>
+
+    <h3>Moisturizes dry baby skin.</h3>
+
+    <div class="price">
+        <span class="new-price">₹215</span>
+        <span class="old-price">₹299</span>
+        <span class="discount">28% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.7 <span>(7.8k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+</div>
+
+<br><br><br>
+
+<div class="cards">
+    <div class="product-card">
+    <img src="https://i.pinimg.com/736x/17/20/75/1720759ec1133ea50aba6bafd97985f3.jpg" alt="Beard Oil">
+
+    <div class="category">Himalaya Diaper Rash Cream</div>
+
+    <h3>Soothes and protects skin.</h3>
+
+    <div class="price">
+        <span class="new-price">₹199</span>
+        <span class="old-price">₹275</span>
+        <span class="discount">28% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.8 <span>(6.5k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/1200x/db/59/9c/db599c96055dfe9dc17f00c4faf47638.jpg" alt="Beard Oil">
+
+    <div class="category">Cetaphil Baby Lotion</div>
+
+    <h3>Deeply hydrates sensitive skin.</h3>
+
+    <div class="price">
+        <span class="new-price">₹349</span>
+        <span class="old-price">₹449</span>
+        <span class="discount">30% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.7 <span>(5.2k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/vwebp/1200x/a1/26/f7/a126f74af7057a8bdb2496b8266181b0.webp" alt="Beard Oil">
+
+    <div class="category">Aveeno Baby Shampoo</div>
+
+    <h3>Gentle tear-free formula.</h3>
+
+    <div class="price">
+        <span class="new-price">₹329</span>
+        <span class="old-price">₹469</span>
+        <span class="discount">30% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.8 <span>(4.9k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/01/32/42/0132429238e994594c97329201e99ea2.jpg" alt="Beard Oil">
+
+    <div class="category">Chicco Baby Body Wash</div>
+
+    <h3>RMild cleanser for baby's skin.</h3>
+
+    <div class="price">
+        <span class="new-price">₹359</span>
+        <span class="old-price">₹519</span>
+        <span class="discount">31% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.7 <span>(4.4k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+</div>
+
+<br><br><br>
+
+<div class="cards">
+    <div class="product-card">
+    <img src="https://i.pinimg.com/736x/6c/c5/6f/6cc56fc33b8b67df4b23e4963b89ac44.jpg" alt="Beard Oil">
+
+    <div class="category">Sebamed Baby Lotion</div>
+
+    <h3>pH-balanced moisturizing lotion.</h3>
+
+    <div class="price">
+        <span class="new-price">₹599</span>
+        <span class="old-price">₹799</span>
+        <span class="discount">25% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.9 <span>(6.8k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/44/14/97/4414979bd6c06fd468f6b8ddf36fa6da.jpg" alt="Beard Oil">
+
+    <div class="category">Sebamed Baby Wash</div>
+
+    <h3>Soap-free body wash.</h3>
+
+    <div class="price">
+        <span class="new-price">₹649</span>
+        <span class="old-price">₹899</span>
+        <span class="discount">28% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.8 <span>(5.7k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/1200x/2d/18/71/2d18711ab8320d47ba6babfa1d71a850.jpg" alt="Beard Oil">
+
+    <div class="category">Sebamed Baby Cream</div>
+
+    <h3>Protects and nourishes skin.</h3>
+
+    <div class="price">
+        <span class="new-price">₹499</span>
+        <span class="old-price">₹699</span>
+        <span class="discount">29% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.8 <span>(4.8k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/35/33/5c/35335c22a33d6b5ccfda57c932ada00b.jpg" alt="Beard Oil">
+
+    <div class="category">Cetaphil Baby Wash & Shampoo</div>
+
+    <h3>Gentle 2-in-1 cleanser.</h3>
+
+    <div class="price">
+        <span class="new-price">₹549</span>
+        <span class="old-price">₹749</span>
+        <span class="discount">27% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.8<span>(7.2k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+</div>
+
+<br><br><br>
+
+<div class="cards">
+    <div class="product-card">
+    <img src="https://i.pinimg.com/736x/e6/84/5d/e6845d8b922256f3a50a94ed93803355.jpg" alt="Beard Oil">
+
+    <div class="category">Cetaphil Moisturising cream</div>
+
+    <h3>Long-lasting skin hydration.</h3>
+
+    <div class="price">
+        <span class="new-price">₹499</span>
+        <span class="old-price">₹699</span>
+        <span class="discount">29% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.8 <span>(6.1k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/dc/3f/01/dc3f01391353e2e8b24f1c1d195759c1.jpg" alt="Beard Oil">
+
+    <div class="category">Coolulto baby wipes</div>
+
+    <h3>Oat-based moisturizing lotion.</h3>
+
+    <div class="price">
+        <span class="new-price">₹799</span>
+        <span class="old-price">₹899</span>
+        <span class="discount">21% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.9 <span>(3.8k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/vwebp/1200x/b7/a3/d9/b7a3d920b3ced0af47f6125b0beb6712.webp" alt="Beard Oil">
+
+    <div class="category">Naturix Sunscreen SPF 50</div>
+
+    <h3>Gentle oat-based cleanser.</h3>
+
+    <div class="price">
+        <span class="new-price">₹749</span>
+        <span class="old-price">₹949</span>
+        <span class="discount">21% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.8 <span>(3.5k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/1200x/d2/b8/8f/d2b88f46622993368d8461d54d3f976d.jpg" alt="Beard Oil">
+
+    <div class="category">Mother Sparsh Baby Wipes</div>
+
+    <h3>Mother Sparsh Baby Wipes.</h3>
+
+    <div class="price">
+        <span class="new-price">₹279</span>
+        <span class="old-price">₹399</span>
+        <span class="discount">30% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.7 <span>(9.1k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+</div>
+
+
+</body>
+</html>

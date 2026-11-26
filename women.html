@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+
+        h1{
+            font-size: 40px;
+            text-align: center;
+            background:linear-gradient(to right,#6f2dbd,#b66dff);
+        }
+         .contain{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .product-card{
+    width:300px;
+    border:1px solid #eee;
+    border-radius:10px;
+    background:#fff;
+    transition:.3s;
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+}
+
+
+
+.product-card img{
+    width:100%;
+    height:220px;
+    object-fit:contain;
+    background:#fafafa;
+}
+
+.product-card h5{
+    font-size:28px;
+    margin:15px;
+    text-align: center;
+}
+
+
+
+.product-card{
+    width:300px;
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.15);
+    padding:15px;
+    transition:.3s;
+}
+
+
+
+
+
+.product-card img{
+    width:100%;
+    height:220px;
+    object-fit:contain;
+}
+
+.category{
+   font-weight: bold;
+    color:#666;
+    font-size:18px;
+    margin-top:10px;
+}
+
+.product-card h3{
+    font-size:18px;
+    margin:8px 0;
+    color:#333;
+}
+
+.price{
+    margin:10px 0;
+}
+
+.new-price{
+    color:#000;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.old-price{
+    color:#888;
+    text-decoration:line-through;
+    margin-left:8px;
+}
+
+.discount{
+    color:green;
+    font-weight:bold;
+    margin-left:8px;
+}
+
+.rating{
+    display:inline-block;
+    background:#0a8f3d;
+    color:#fff;
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:14px;
+    margin:10px 0;
+}
+
+.rating span{
+    color:#fff;
+    margin-left:5px;
+}
+
+.buttons{
+    display:flex;
+    gap:10px;
+    margin-top:15px;
+}
+
+.buttons button{
+    flex:1;
+    padding:12px;
+    border:none;
+    border-radius:6px;
+    font-size:15px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.cart{
+    background:#ff9800;
+    color:#fff;
+}
+
+.cart:hover{
+    background:#f57c00;
+}
+
+.buy{
+    background:#28a745;
+    color:#fff;
+}
+
+.buy:hover{
+    background:#218838;
+}
+
+.sort{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    height: 50px;
+      align-items: center;
+            padding: 4px;
+            font-size: 22px;
+            font-weight: bold;
+    }
+
+    .cards{
+        
+        display: flex;
+        justify-content: space-evenly;
+        scroll-snap-type: x mandatory;
+    }
+
+
+    </style>
+</head>
+<body>
+    
+    <h1>Women</h1>
+    <div class="contain">
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/3a/f8/ec/3af8ec0c7eb4300ea94185b9e2141627.jpg" alt="">
+        <h5>Sheet Mask</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/f3/c4/41/f3c44115d9c5e52de0a2518234dec7c3.jpg" alt="">
+        <h5>Face Serum</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/2c/8d/8d/2c8d8de02caa6f41de11dc666e7d1f84.jpg" alt="">
+        <h5>Face Wash</h5>    
+    </div>
+
+    
+   </div>
+<br>
+<br>
+
+   <div class="contain">
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/fa/db/14/fadb142ff28ffa50649634517ced270b.jpg" alt="">
+        <h5>Body Lotion</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/vwebp/736x/76/c0/ca/76c0ca41f7c4d84c5c32b87d7ee61465.webp" alt="">
+        <h5>Face Cream</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/28/dc/cc/28dccc713bdca7acec59c9cda27a9d88.jpg" alt="">
+        <h5>Hair Serum</h5>    
+    </div>  
+   </div>
+
+    <h1>Women Personal Care</h1>
+
+     <div class="contain">
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/92/14/82/9214827655b52a3187e0b35a6bfdebce.jpg" alt="">
+        <h5>Shampoo & Conditioner</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/0a/01/f6/0a01f6225ce3c4f8425a6f2c26dee756.jpg" alt="">
+        <h5>Hair Oil</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/vwebp/1200x/73/7e/36/737e36e9d63361846cf30250f9d6576b.webp" alt="">
+        <h5>Perfume
+
+
+
+        </h5>    
+    </div>
+
+    
+   </div>
+<br>
+<br>
+
+   <div class="contain">
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/69/50/b0/6950b02454eac6185d529e1fa9393cc2.jpg" alt="">
+        <h5>Under Eye Cream</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/29/5e/a6/295ea6ef708bb1e32b3f089490451b0c.jpg" alt="">
+        <h5>Face Toner</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/e1/7a/78/e17a785167b67128a69681a9ab8b3ef8.jpg" alt="">
+        <h5>Body wash</h5>    
+    </div>  
+   </div>
+<br>
+<br><br>
+
+
+<div class="sort">
+    <div class="child">Sort</div>
+    <div class="child">Category</div>
+    <div class="child">Price</div>
+    <div class="child">Filters</div>
+</div>
+  <br>
+<br><br>
+<br>
+
+<div class="cards">
+    <div class="product-card">
+    <img src="https://i.pinimg.com/736x/5c/01/23/5c0123c8e26299c0c5972ae6335ce8b3.jpg" alt="Beard Oil">
+
+    <div class="category">Lakme Peach Milk Moisturizer</div>
+
+    <h3>Softens and hydrates skin.</h3>
+
+    <div class="price">
+        <span class="new-price">₹249</span>
+        <span class="old-price">₹349</span>
+        <span class="discount">29% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.6 <span>(8.5k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/09/ca/cc/09cacce473a674b1661716454b64dc21.jpg" alt="Beard Oil">
+
+    <div class="category">Pond's Super Light Gel</div>
+
+    <h3>Lightweight daily moisturizer.</h3>
+
+    <div class="price">
+        <span class="new-price">₹299</span>
+        <span class="old-price">₹399</span>
+        <span class="discount">25% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.7 <span>(12k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/55/8f/b2/558fb289805aefe322d547c9ac756296.jpg" alt="Beard Oil">
+
+    <div class="category">Garnier Bright Complete Serum</div>
+
+    <h3>Brightens dull skin..</h3>
+
+    <div class="price">
+        <span class="new-price">₹499</span>
+        <span class="old-price">₹699</span>
+        <span class="discount">29% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.5 <span>(6.8k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/65/83/7d/65837d48864604ce112f3b6850fd5822.jpg" alt="Beard Oil">
+
+    <div class="category">Cetaphil Gentle Skin Cleanser</div>
+
+    <h3>Gentle cleanser for sensitive skin..</h3>
+
+    <div class="price">
+        <span class="new-price">₹399</span>
+        <span class="old-price">₹549</span>
+        <span class="discount">27% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.8 <span>(15k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+</div>
+
+<br><br><br>
+
+<div class="cards">
+    <div class="product-card">
+    <img src="https://i.pinimg.com/736x/37/34/95/373495a4deb18ca8934df05f12ca463e.jpg" alt="Beard Oil">
+
+    <div class="category">Simple Refreshing Face Wash</div>
+
+    <h3>Refreshes and soothes skin after shavingCleanses without drying.</h3>
+
+    <div class="price">
+        <span class="new-price">₹275</span>
+        <span class="old-price">₹399</span>
+        <span class="discount">31% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.6 <span>(7.2k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/1f/7a/ee/1f7aeed1af32c30837aec5b133fbefdd.jpg" alt="Beard Oil">
+
+    <div class="category">Neutrogena Hydro Boost Gel</div>
+
+    <h3>Deep hydration for skin.</h3>
+
+    <div class="price">
+        <span class="new-price">₹899</span>
+        <span class="old-price">₹1,999</span>
+        <span class="discount">25% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.6 <span>(10k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/8b/1b/fc/8b1bfc7e756e12982cf6b12875b48381.jpg" alt="Beard Oil">
+
+    <div class="category">Nivea Soft Cream</div>
+
+    <h3>Moisturizes face and body.</h3>
+
+    <div class="price">
+        <span class="new-price">₹199</span>
+        <span class="old-price">₹299</span>
+        <span class="discount">33% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.7 <span>(5.6k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/82/0b/1a/820b1aebffcaa1b26ba1c14d3b3d12bf.jpg" alt="Beard Oil">
+
+    <div class="category">Mamaearth Vitamin C Face Wash</div>
+
+    <h3>Cleans and brightens skin.</h3>
+
+    <div class="price">
+        <span class="new-price">₹249</span>
+        <span class="old-price">₹349</span>
+        <span class="discount">29% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.8 <span>(9.3k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+</div>
+
+<br><br><br>
+
+<div class="cards">
+    <div class="product-card">
+    <img src="https://i.pinimg.com/1200x/9f/8e/8a/9f8e8afd9f49bde6bf557f56995bc1f2.jpg" alt="Beard Oil">
+
+    <div class="category">WOW Vitamin C Face Cream</div>
+
+    <h3>Nourishes and adds glow.</h3>
+
+    <div class="price">
+        <span class="new-price">₹349</span>
+        <span class="old-price">₹499</span>
+        <span class="discount">30% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.4 <span>(4.8k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/4b/4f/c5/4b4fc5791bc1ce9afde2085d0efc7f6d.jpg" alt="Beard Oil">
+
+    <div class="category">Plum Green Tea Toner</div>
+
+    <h3>Refreshes oily skin.</h3>
+
+    <div class="price">
+        <span class="new-price">₹390</span>
+        <span class="old-price">₹550</span>
+        <span class="discount">29% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.6 <span>(3.9k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/98/68/2a/98682a5a1669812e867743f5185f930d.jpg" alt="Beard Oil">
+
+    <div class="category">Dot & Key Sunscreen SPF 50</div>
+
+    <h3>Protects against UV rays.</h3>
+
+    <div class="price">
+        <span class="new-price">₹495</span>
+        <span class="old-price">₹695</span>
+        <span class="discount">29% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.7 <span>(6.2k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/6e/b3/43/6eb343f0037bc5007ad3e8687050b06b.jpg" alt="Beard Oil">
+
+    <div class="category">Minimalist Vitamin C Serum</div>
+
+    <h3>Improves skin radiance.</h3>
+
+    <div class="price">
+        <span class="new-price">₹599</span>
+        <span class="old-price">₹799</span>
+        <span class="discount">25% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.8 <span>(11k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+</div>
+
+<br><br><br>
+
+<div class="cards">
+    <div class="product-card">
+    <img src="https://i.pinimg.com/736x/4b/bf/a5/4bbfa51c8500bc61743f34bc730302a2.jpg" alt="Beard Oil">
+
+    <div class="category">The Derma Co Sunscreen</div>
+
+    <h3>Broad-spectrum SPF 50 protection</h3>
+
+    <div class="price">
+        <span class="new-price">₹449</span>
+        <span class="old-price">₹699</span>
+        <span class="discount">36% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.6 <span>(8.1k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/ed/5e/89/ed5e8900ce5911dc304181aa4cd0cc2b.jpg" alt="Beard Oil">
+
+    <div class="category">Biotique Morning Nectar Lotion</div>
+
+    <h3>Herbal daily moisturizer.</h3>
+
+    <div class="price">
+        <span class="new-price">₹199</span>
+        <span class="old-price">₹299</span>
+        <span class="discount">33% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.5 <span>(5.4k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/c9/04/6d/c9046d33ff08a029a78e6e3ac394c6dd.jpg" alt="Beard Oil">
+
+    <div class="category">Himalaya Purifying Neem Face Wash</div>
+
+    <h3>Removes dirt and oil.</h3>
+
+    <div class="price">
+        <span class="new-price">₹179</span>
+        <span class="old-price">₹249</span>
+        <span class="discount">28% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.7 <span>(18k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/86/e4/a5/86e4a58ece45c593d36497794069f9e4.jpg" alt="Beard Oil">
+
+    <div class="category">Lotus Herbals WhiteGlow Cream</div>
+
+    <h3>Brightens skin tone.</h3>
+
+    <div class="price">
+        <span class="new-price">₹299</span>
+        <span class="old-price">₹425</span>
+        <span class="discount">30% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.5 <span>(6.5k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+</div>
+
+<br><br><br>
+
+<div class="cards">
+    <div class="product-card">
+    <img src="https://i.pinimg.com/736x/66/03/e1/6603e1369380caf5fac7e93e8e31d569.jpg" alt="Beard Oil">
+
+    <div class="category">L'Oréal Paris Revitalift Cream</div>
+
+    <h3>Reduces fine lines.</h3>
+
+    <div class="price">
+        <span class="new-price">₹899</span>
+        <span class="old-price">₹1,299</span>
+        <span class="discount">31% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.6 <span>(3.5k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/45/5a/af/455aafcdca2c0c6bb4da2c90cd52d712.jpg" alt="Beard Oil">
+
+    <div class="category">Olay Total Effects Cream</div>
+
+    <h3>7-in-1 anti-ageing care.</h3>
+
+    <div class="price">
+        <span class="new-price">₹999</span>
+        <span class="old-price">₹1,399</span>
+        <span class="discount">29% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.7 <span>(4.9k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/83/9e/be/839ebec13e7fdc6260e6a46c01526fb0.jpg" alt="Beard Oil">
+
+    <div class="category">Foxtale Daily Moisturizer</div>
+
+    <h3>Lightweight hydration.</h3>
+
+    <div class="price">
+        <span class="new-price">₹345</span>
+        <span class="old-price">₹495</span>
+        <span class="discount">30% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.5 <span>(2.8k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/1200x/36/d4/b8/36d4b811aab98d8c3bf257f7e5593744.jpg" alt="Beard Oil">
+
+    <div class="category">Biotique Bio Fruit Face Pack</div>
+
+    <h3>Removes tan, brightens skin, and gives a natural glow.</h3>
+
+    <div class="price">
+        <span class="new-price">₹550</span>
+        <span class="old-price">₹799</span>
+        <span class="discount">31% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.6 <span>(7.8k Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</i>
+</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+</div>
+
+
+</body>
+</html>

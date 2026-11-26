@@ -1,0 +1,53 @@
+.story{
+    margin-top: 50px;
+    height: 170px;
+    width:90%;
+    background:linear-gradient(to right,#6f2dbd,#b66dff);
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:40px 80px;
+    flex-wrap:wrap;
+}
+
+.story-text{
+    width:35%;
+}
+
+.story-text .small{
+    font-size:14px;
+    text-transform:uppercase;
+    margin-bottom:10px;
+}
+
+.story-text h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.story-text p{
+    line-height:1.7;
+}
+
+.story-box{
+    width:60%;
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+    flex-wrap:wrap;
+}
+
+.item i{
+    font-size:45px;
+    margin-bottom:10px;
+}
+
+.item h3{
+    font-size:28px;
+    margin:5px 0;
+}
+
+.item p{
+    font-size:15px;
+}

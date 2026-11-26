@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men</title>
+    <style>
+
+        h1{
+            font-size: 40px;
+            text-align: center;
+            background:linear-gradient(to right,#6f2dbd,#b66dff);
+        }
+         .contain{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .product-card{
+    width:300px;
+    border:1px solid #eee;
+    border-radius:10px;
+    background:#fff;
+    transition:.3s;
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+}
+
+
+
+.product-card img{
+    width:100%;
+    height:220px;
+    object-fit:contain;
+    background:#fafafa;
+}
+
+.product-card h5{
+    font-size:28px;
+    margin:15px;
+    text-align: center;
+}
+
+
+
+.product-card{
+    width:300px;
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.15);
+    padding:15px;
+    transition:.3s;
+}
+
+
+
+
+
+.product-card img{
+    width:100%;
+    height:220px;
+    object-fit:contain;
+}
+
+.category{
+    font-weight: bold;
+    color:#666;
+    font-size:18px;
+    margin-top:10px;
+}
+
+.product-card h3{
+    font-size:18px;
+    margin:8px 0;
+    color:#333;
+}
+
+.price{
+    margin:10px 0;
+}
+
+.new-price{
+    color:#000;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.old-price{
+    color:#888;
+    text-decoration:line-through;
+    margin-left:8px;
+}
+
+.discount{
+    color:green;
+    font-weight:bold;
+    margin-left:8px;
+}
+
+.rating{
+    display:inline-block;
+    background:#0a8f3d;
+    color:#fff;
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:14px;
+    margin:10px 0;
+}
+
+.rating span{
+    color:#fff;
+    margin-left:5px;
+}
+
+.buttons{
+    display:flex;
+    gap:10px;
+    margin-top:15px;
+}
+
+.buttons button{
+    flex:1;
+    padding:12px;
+    border:none;
+    border-radius:6px;
+    font-size:15px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.cart{
+    background:#ff9800;
+    color:#fff;
+}
+
+.cart:hover{
+    background:#f57c00;
+}
+
+.buy{
+    background:#28a745;
+    color:#fff;
+}
+
+.buy:hover{
+    background:#218838;
+}
+
+.sort{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    height: 50px;
+      align-items: center;
+            padding: 4px;
+            font-size: 22px;
+            font-weight: bold;
+    }
+
+    .cards{
+        
+        display: flex;
+        justify-content: space-evenly;
+        scroll-snap-type: x mandatory;
+    }
+
+
+    </style>
+</head>
+<body>
+    
+    <h1>Men</h1>
+    <div class="contain">
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/c4/47/b7/c447b79d875e6ee38a7881d683f791c8.jpg" alt="">
+        <h5>Trimmers</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/db/2c/c3/db2cc35071a105df3943ab2f8fa94374.jpg" alt="">
+        <h5>Beard Oil</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/vwebp/1200x/69/7d/fd/697dfd1716263c0cf2bd566670d5c9f8.webp" alt="">
+        <h5>Shaving Razors</h5>    
+    </div>
+
+    
+   </div>
+<br>
+<br>
+
+   <div class="contain">
+    <div class="product-card">
+        <img src="https://i.pinimg.com/1200x/e4/77/92/e4779264006024573852bcb03523d1d6.jpg" alt="">
+        <h5>Aftershave Solutions</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/14/de/1d/14de1d25e2d144b2025769ef1a261de5.jpg" alt="">
+        <h5>Shaving Scissors</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/1200x/bd/08/d8/bd08d8afd3162b97aa7aa8c265d161be.jpg" alt="">
+        <h5>Shaving Soap</h5>    
+    </div>  
+   </div>
+
+    <h1>Men Personal Care</h1>
+
+     <div class="contain">
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/f2/0f/9c/f20f9cc69d67333348b0532e439a7658.jpg" alt="">
+        <h5>Shampoo & Conditioner</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/b0/35/b7/b035b76cfc3b49d97884b2704cd11dfb.jpg" alt="">
+        <h5>Men's Face Cream</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/1d/49/69/1d49692f71b522dd7cfa2e7f821aff66.jpg" alt="">
+        <h5>Hair Styling</h5>    
+    </div>
+
+    
+   </div>
+<br>
+<br>
+
+   <div class="contain">
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/ea/97/8b/ea978b13450232542636715ec928d935.jpg" alt="">
+        <h5>Face Wash</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/vwebp/1200x/dc/72/7f/dc727f9b70afec89c48d36faa44441be.webp" alt="">
+        <h5>Perfume</h5>    
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/e4/4b/c7/e44bc78a019e8314bba115c189a8a5a4.jpg" alt="">
+        <h5>Body wash</h5>    
+    </div>  
+   </div>
+<br>
+<br><br>
+
+
+<div class="sort">
+    <div class="child">Sort</div>
+    <div class="child">Category</div>
+    <div class="child">Price</div>
+    <div class="child">Filters</div>
+</div>
+  <br>
+<br><br>
+<br>
+
+<div class="cards">
+    <div class="product-card">
+    <img src="https://i.pinimg.com/736x/43/1f/81/431f81ce3688eb65f8d6ef12a2d4b1a5.jpg" alt="Beard Oil">
+
+    <div class="category">Beard Oil</div>
+
+    <h3>Nourish Mantra Advanced Beard Growth Oil Serum</h3>
+
+    <div class="price">
+        <span class="new-price">₹184</span>
+        <span class="old-price">₹599</span>
+        <span class="discount">69% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.0 <span>(921 Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/1200x/ac/40/1d/ac401d206fc72bb9427db84fe325acc2.jpg" alt="Beard Oil">
+
+    <div class="category">Premium Beard Balm</div>
+
+    <h3>Softens beard and gives a natural shine.</h3>
+
+    <div class="price">
+        <span class="new-price">₹249</span>
+        <span class="old-price">₹599</span>
+        <span class="discount">58% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.4 <span>(980 Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/1200x/12/6b/42/126b426a531aa41521772f601c905f73.jpg" alt="Beard Oil">
+
+    <div class="category">Herbal Shaving Foam</div>
+
+    <h3>Smooth shaving with aloe vera protection.</h3>
+
+    <div class="price">
+        <span class="new-price">₹179</span>
+        <span class="old-price">₹399</span>
+        <span class="discount">55% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.3 <span>(865 Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/ec/a0/cf/eca0cf87267b53598bf8b4b1cdcb98ac.jpg" alt="Beard Oil">
+
+    <div class="category">Stainless Steel Razor</div>
+
+    <h3>Comfortable shave with precision blades.</h3>
+
+    <div class="price">
+        <span class="new-price">₹284</span>
+        <span class="old-price">₹699</span>
+        <span class="discount">57% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.6 <span>(1,120 Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+</div>
+
+<br><br><br>
+
+<div class="cards">
+    <div class="product-card">
+    <img src="https://i.pinimg.com/vwebp/1200x/bc/9b/42/bc9b42aa5c9ce1687d26d49b6c67ba43.webp" alt="Beard Oil">
+
+    <div class="category">Cooling Aftershave Lotion</div>
+
+    <h3>Refreshes and soothes skin after shaving.</h3>
+
+    <div class="price">
+        <span class="new-price">₹189</span>
+        <span class="old-price">₹499</span>
+        <span class="discount">58% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.4 <span>(742 Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/bb/a1/e1/bba1e163a8d0685adeb4d4fcd3b548dc.jpg" alt="Beard Oil">
+
+    <div class="category">Professional Beard Trimmer</div>
+
+    <h3>Cordless trimmer with adjustable settingd.</h3>
+
+    <div class="price">
+        <span class="new-price">₹999</span>
+        <span class="old-price">₹1,999</span>
+        <span class="discount">50% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.7 <span>(2,010 Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/e1/35/e6/e135e629935b655ec56fff567a4621be.jpg" alt="Beard Oil">
+
+    <div class="category">Men's Face Wash</div>
+
+    <h3>Removes oil and dirt for fresh skin.</h3>
+
+    <div class="price">
+        <span class="new-price">₹149</span>
+        <span class="old-price">₹299</span>
+        <span class="discount">50% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.5 <span>(3,210 Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/vwebp/1200x/87/cb/65/87cb65288acec0ea415205fdef3ad8ac.webp" alt="Beard Oil">
+
+    <div class="category">Oil Control Face Cream</div>
+
+    <h3>Hydrates skin without making it oil.</h3>
+
+    <div class="price">
+        <span class="new-price">₹299</span>
+        <span class="old-price">₹499</span>
+        <span class="discount">54% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.3 <span>(1,040 Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+</div>
+
+<br><br><br>
+
+<div class="cards">
+    <div class="product-card">
+    <img src="https://i.pinimg.com/vwebp/1200x/96/04/61/9604611ed7a737b1870ff52b555f7644.webp" alt="Beard Oil">
+
+    <div class="category">Daily Moisturizing Cream</div>
+
+    <h3>Keeps skin soft and hydrated all day.</h3>
+
+    <div class="price">
+        <span class="new-price">₹249</span>
+        <span class="old-price">₹549</span>
+        <span class="discount">55% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.6 <span>(876 Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/71/ca/01/71ca010962c391ec8515de5788e0f66c.jpg" alt="Beard Oil">
+
+    <div class="category">Charcoal face Scrub</div>
+
+    <h3>Deep cleans pores and removes dead skin.</h3>
+
+    <div class="price">
+        <span class="new-price">₹199</span>
+        <span class="old-price">₹449</span>
+        <span class="discount">56% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.4 <span>(1.320 Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/d8/74/ce/d874ceff6687bfe8f851918f1980adc6.jpg" alt="Beard Oil">
+
+    <div class="category">Anti-Dandruff Shampoo</div>
+
+    <h3>Reduces dandruff and strengthenes hair.</h3>
+
+    <div class="price">
+        <span class="new-price">₹299</span>
+        <span class="old-price">₹649</span>
+        <span class="discount">54% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.5 <span>(2,450 Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/4b/74/a6/4b74a6c261f3743dd0cc6186aa67e4c6.jpg" alt="Beard Oil">
+
+    <div class="category">Smooth Conditioner</div>
+
+    <h3>Repairs damanged hair and adds shine.</h3>
+
+    <div class="price">
+        <span class="new-price">₹269</span>
+        <span class="old-price">₹599</span>
+        <span class="discount">55% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.4 <span>(1,140 Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+</div>
+
+<br><br><br>
+
+<div class="cards">
+    <div class="product-card">
+    <img src="https://i.pinimg.com/1200x/f4/09/39/f4093950664f9d05f0b496576a1ee40b.jpg" alt="Beard Oil">
+
+    <div class="category">Hair Styling Wax</div>
+
+    <h3>Strong hold with a natural finish.</h3>
+
+    <div class="price">
+        <span class="new-price">₹349</span>
+        <span class="old-price">₹699</span>
+        <span class="discount">69% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.5 <span>(2,560 Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/1200x/2b/e7/4a/2be74a12e96c33b6dd154cbc310534f4.jpg" alt="Beard Oil">
+
+    <div class="category">Hair Styling Gel</div>
+
+    <h3>Long-lasting hold without stickiness</h3>
+
+    <div class="price">
+        <span class="new-price">₹249</span>
+        <span class="old-price">₹549</span>
+        <span class="discount">55% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.3 <span>(1,187 Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/ac/3d/83/ac3d83af69b6f464d57ce3344a975ea9.jpg" alt="Beard Oil">
+
+    <div class="category">Luxury Eau De Perfum</div>
+
+    <h3>Long-lasting fragrance for everyday use.</h3>
+
+    <div class="price">
+        <span class="new-price">₹599</span>
+        <span class="old-price">₹1299</span>
+        <span class="discount">54% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.7 <span>(4,350 Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/1200x/a4/73/8c/a4738c4cfb76f656ca66b29b5f03ac0c.jpg" alt="Beard Oil">
+
+    <div class="category">Fresh Body Wash</div>
+
+    <h3>Gentle body cleanser with fresh fragrance.</h3>
+
+    <div class="price">
+        <span class="new-price">₹249</span>
+        <span class="old-price">₹499</span>
+        <span class="discount">50% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.6 <span>(1,760 Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+</div>
+
+<br><br><br>
+
+<div class="cards">
+    <div class="product-card">
+    <img src="https://i.pinimg.com/1200x/74/fd/c1/74fdc16729065d5d08a917337cec5cfc.jpg" alt="Beard Oil">
+
+    <div class="category">Activated Charcoal Soap</div>
+
+    <h3>Removes impurities and controls excess oil.</h3>
+
+    <div class="price">
+        <span class="new-price">₹149</span>
+        <span class="old-price">₹299</span>
+        <span class="discount">50% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.4 <span>(1,135 Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/29/ca/f7/29caf71c217d23d661a49e1eecd0714b.jpg" alt="Beard Oil">
+
+    <div class="category">Vitamin C Face Serum</div>
+
+    <h3>Brightens skin and reduces dullness.</h3>
+
+    <div class="price">
+        <span class="new-price">₹399</span>
+        <span class="old-price">₹899</span>
+        <span class="discount">56% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.6 <span>(1,980 Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/78/f2/b1/78f2b1831306894c59c16e1e5ab4fa84.jpg" alt="Beard Oil">
+
+    <div class="category">Men's Sunscreen SPF 50</div>
+
+    <h3>Protects skin from harmful UV rays.</h3>
+
+    <div class="price">
+        <span class="new-price">₹349</span>
+        <span class="old-price">₹749</span>
+        <span class="discount">53% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.5 <span>(1,420 Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+
+<div class="product-card">
+    <img src="https://i.pinimg.com/736x/dc/0e/13/dc0e139f45e2949bc6aef3b2657a150c.jpg" alt="Beard Oil">
+
+    <div class="category">Beard Comb</div>
+
+    <h3>Detangles bead, reduces frizz.</h3>
+
+    <div class="price">
+        <span class="new-price">₹99</span>
+        <span class="old-price">₹199</span>
+        <span class="discount">50% OFF</span>
+    </div>
+
+    <div class="rating">
+        ⭐ 4.4 <span>(950 Reviews)</span>
+    </div>
+
+    <div class="buttons">
+        <button class="cart">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+    </div>   
+</div>
+</div>
+
+
+</body>
+</html>

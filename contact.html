@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f9f4ff;
+}
+
+.contact{
+    width:90%;
+    margin:50px auto;
+}
+
+.contact h1{
+    text-align:center;
+    color:#6a1b9a;
+    font-size:40px;
+}
+
+.contact p{
+    text-align:center;
+    margin-top:10px;
+    color:#555;
+}
+
+.container{
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+    margin-top:40px;
+    flex-wrap:wrap;
+}
+
+.contact-info{
+    flex:1;
+    min-width:300px;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.contact-info h2{
+    color:#6a1b9a;
+    margin-bottom:20px;
+}
+
+.contact-info p{
+    text-align:left;
+    margin-bottom:20px;
+    line-height:25px;
+}
+
+.contact-form{
+    flex:1;
+    min-width:300px;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:16px;
+}
+
+.contact-form textarea{
+    height:150px;
+    resize:none;
+}
+
+.contact-form button{
+    width:100%;
+    padding:12px;
+    background:#8e44ad;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.contact-form button:hover{
+    background:#6a1b9a;
+}
+
+@media(max-width:768px){
+    .container{
+        flex-direction:column;
+    }
+}
+
+.map{
+    width:90%;
+    margin:50px auto;
+    text-align:center;
+}
+
+.map h2{
+    color:#6a1b9a;
+    margin-bottom:20px;
+    font-size:32px;
+}
+
+.map iframe{
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.faq{
+    width:90%;
+    margin:60px auto;
+}
+
+.faq h2{
+    text-align:center;
+    color:#6a1b9a;
+    margin-bottom:30px;
+    font-size:32px;
+}
+
+.faq-box{
+    background:#fff;
+    margin-bottom:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.faq-box h3{
+    color:#6a1b9a;
+    margin-bottom:10px;
+}
+
+.faq-box p{
+    color:#555;
+    line-height:1.6;
+}
+
+.footer{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    padding:50px 80px;
+    background:#fff;
+}
+
+.footer-box{
+    width:220px;
+}
+
+.logo{
+    width:150px;
+    margin-bottom:15px;
+}
+
+.footer-box h3{
+    color:#7a3db8;
+    margin-bottom:15px;
+    font-size:18px;
+}
+
+.footer-box a{
+    display:block;
+    text-decoration:none;
+    color:#333;
+    margin:8px 0;
+}
+
+.footer-box p{
+    color:#555;
+    line-height:24px;
+}
+
+.social i{
+    width:35px;
+    height:35px;
+    line-height:35px;
+    text-align:center;
+    border-radius:50%;
+    background:#8e44ad;
+    color:#fff;
+    margin:15px 8px 0 0;
+    cursor:pointer;
+}
+
+.footer-box input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #ccc;
+}
+
+.footer-box button{
+    width:100%;
+    padding:12px;
+    background:#8e44ad;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+}
+
+.footer-box button:hover{
+    background:#6f2dbd;
+}
+
+.copyright{
+    text-align:center;
+    padding:15px;
+    border-top:1px solid #ddd;
+    font-size:15px;
+}
+    </style>
+</head>
+<body>
+
+<section class="contact">
+
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you! Feel free to contact us anytime.</p>
+
+    <div class="container">
+
+        <div class="contact-info">
+
+            <h2>Get In Touch</h2>
+
+            <p><strong>📍 Address:</strong><br>
+            Deccan Gymkhana, Pune, Maharashtra 411005</p>
+
+            <p><strong>📞 Phone:</strong><br>
+            +91 9370268042</p>
+
+            <p><strong>📧 Email:</strong><br>
+            support@cosmiraskincare.com</p>
+
+            <p><strong>🕒 Working Hours:</strong><br>
+            Mon - Sat (9 AM - 7 PM)</p>
+
+        </div>
+
+       
+        <div class="contact-form">
+
+            <form>
+
+                <input type="text" placeholder="Full Name" required>
+
+                <input type="email" placeholder="Email Address" required>
+
+                <input type="tel" placeholder="Phone Number">
+
+                <input type="text" placeholder="Subject">
+
+                <textarea placeholder="Your Message"></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="map">
+    <h2>Our Location</h2>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=YOUR_GOOGLE_MAP_LINK"
+        width="100%"
+        height="350"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
+</section>
+
+<section class="faq">
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-box">
+        <h3>How can I track my order?</h3>
+        <p>You can track your order using the tracking link sent to your email or by visiting the "My Orders" section after logging into your account.</p>
+    </div>
+
+    <div class="faq-box">
+        <h3>What is your return policy?</h3>
+        <p>We offer a 7-day return policy for unused and unopened products. Items must be returned in their original packaging.</p>
+    </div>
+
+    <div class="faq-box">
+        <h3>How long does delivery take?</h3>
+        <p>Orders are usually delivered within 3–7 business days, depending on your location.</p>
+    </div>
+
+    <div class="faq-box">
+        <h3>How can I contact customer support?</h3>
+        <p>You can contact us via email at <b>support@cosmiraskincare.com</b> or call us at <b>+91 9876543210</b> during business hours.</p>
+    </div>
+
+</section>
+
+<footer class="footer">
+    <div class="footer-box">
+        <img src="https://i.pinimg.com/1200x/f2/9c/17/f29c17c329d61fbbc5f8d3ce0814cf41.jpg" alt="" class="logo">
+        <p>Clean beauty. Conscious choices. <br> Confidence, naturally</p>
+
+        <div class="social">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+        </div>
+    </div>
+
+     <div class="footer-box">
+        <h3>QUICK LINKS</h3>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About Us</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact Us</a>
+        <a href="#">FAQs</a>
+    </div>
+
+    <div class="footer-box">
+        <h3>CUSTOMER CARE</h3>
+        <a href="#">Shipping Policy</a>
+        <a href="#">Return Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Track Order</a>
+    </div>
+
+    <div class="footer-box">
+        <h3>CONTACT US</h3>
+
+        <p><i class="fa fa-phone"></i> +91 9370268042</p>
+        <p><i class="fa fa-envelope-o"></i> info@cosmira.com</p>
+        <p><i class="fa fa-map-marker"></i> Pune, Maharashtra</p>
+    </div>
+
+    <div class="footer-box">
+        <h3>NEWSLETTER</h3>
+
+        <p>Subscribe to get special offers and updates.</p>
+
+        <input type="email" placeholder="Enter your email">
+
+        <button>SUBSCRIBE</button>
+    </div>
+
+</footer>
+
+<div class="copyright">
+    © 2026 Cosmira Skincare. All Rights Reserved.
+</div>
+
+</body>
+</html>
